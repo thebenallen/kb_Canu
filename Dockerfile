@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates \
         openjdk-11-jre-headless \
     && rm -rf /var/lib/apt/lists/*
- 
+RUN pip install gunicorn gevent 
 # ---- Install Canu 2.2 binary -----------------------------------------------
 # Canu is distributed as pre-built Linux x86_64 binaries; no compilation needed.
 ENV CANU_VERSION=2.2

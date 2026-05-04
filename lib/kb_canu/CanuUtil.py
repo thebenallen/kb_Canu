@@ -7,9 +7,8 @@ from installed_clients.ReadsUtilsClient import ReadsUtils
 from installed_clients.AssemblyUtilClient import AssemblyUtil
 from installed_clients.KBaseReportClient import KBaseReport
 
-from kb_canu.CanuUtil import validate_reads_file
+from kb_canu.utils.reads_file_utils import validate_reads_file
 logger = logging.getLogger(__name__)
-
 
 # ---------------------------------------------------------------------------
 # Read-type flag mapping:
