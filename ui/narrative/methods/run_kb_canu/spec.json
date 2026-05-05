@@ -198,7 +198,7 @@
                 {
                     "input_parameter": "corrected_error_rate",
                     "target_property": "corrected_error_rate",
-                    "target_type_transform": "float"
+                    "target_type_transform": "none"
                 },
                 {
                     "input_parameter": "min_overlap_length",
