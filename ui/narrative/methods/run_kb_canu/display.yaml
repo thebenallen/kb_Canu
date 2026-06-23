@@ -1,5 +1,5 @@
 ---
-name: Assemble with Canu - v2.2
+name: Assemble Reads with Canu - v2.2
 tooltip: |
     Assemble long reads (Oxford Nanopore, PacBio CLR, or PacBio HiFi/CCS)
     using the Canu assembler. Canu is designed for high-noise single-molecule
